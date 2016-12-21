@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="objloader.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Buildings.cpp">
+      <Filter>buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="worldObject.cpp">
+      <Filter>worldObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cars.cpp">
+      <Filter>cars</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="trees.cpp">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClCompile Include="collisions.cpp">
+      <Filter>collisions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="objloader.hpp" />
+    <ClInclude Include="SOIL.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Buildings.h">
+      <Filter>buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="worldObject.h">
+      <Filter>worldObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cars.h">
+      <Filter>cars</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="trees.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClInclude Include="collisions.h">
+      <Filter>collisions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\cube_fragment.shader" />
+    <None Include="shaders\cube_vertex.shader" />
+    <None Include="shaders\skybox_fragment.shader" />
+    <None Include="shaders\skybox_vertex.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="worldObject">
+      <UniqueIdentifier>{90d0d369-e682-4b1c-a4e1-0e8ca7cf8cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="buildings">
+      <UniqueIdentifier>{48fdcab0-a0bb-4bb0-9967-d45fa9d9df18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cars">
+      <UniqueIdentifier>{c11ca385-da70-4569-82a2-1278ddc3d3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character">
+      <UniqueIdentifier>{ef9e1731-235d-49ec-a0f5-806c54ce0650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trees">
+      <UniqueIdentifier>{048df402-183f-4d59-add1-96c3142d137d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collisions">
+      <UniqueIdentifier>{99ab634f-f0e6-4bad-a58a-bb2ffdd26750}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

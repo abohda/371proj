@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\audrey\downloads\groupproject\groupproject\groupproject\groupproject\main.cpp(30): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\audrey\downloads\groupproject\groupproject\groupproject\groupproject\main.cpp(385): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\audrey\downloads\groupproject\groupproject\groupproject\groupproject\main.cpp(387): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\audrey\downloads\groupproject\groupproject\groupproject\groupproject\main.cpp(776): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\audrey\downloads\groupproject\groupproject\groupproject\groupproject\main.cpp(1050): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\audrey\downloads\groupproject\groupproject\groupproject\groupproject\main.cpp(1154): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\audrey\downloads\groupproject\groupproject\groupproject\groupproject\main.cpp(1178): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\audrey\downloads\groupproject\groupproject\groupproject\groupproject\main.cpp(709): warning C4101: 'modelUVsVBO': unreferenced local variable
+  GroupProject.vcxproj -> C:\Users\Audrey\Downloads\GroupProject\GroupProject\GroupProject\Debug\GroupProject.exe
